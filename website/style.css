@@ -17,8 +17,27 @@
     background-color: rgb(233, 233, 233);
     border-radius: 10px;
 }
+.single-meal h3{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
 .single-meal img{
     border-radius: 10px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
+}
+#selected-item {
+    margin-left: 40%;
+}
+#selected-item ul {
+    list-style-type: none;
+}
+.single-meal-details img{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.single-meal-details{
+    width: 300px;
 }
